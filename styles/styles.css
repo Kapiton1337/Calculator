@@ -1,0 +1,62 @@
+table
+{
+    font-family: sans-serif;
+    text-align: left;
+    background-color: lightgray;
+    border: 12px solid #ece9e0;
+    border-radius: 20px;
+    border-spacing: 50px 15px;
+    user-select: none;
+}
+
+.digit_key
+{
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    border-collapse: separate;
+    border-spacing: 3px 1px;
+    cursor: pointer;
+}
+
+.digit_key.num
+{
+    background-color: #bebebe;
+    width: 50px;
+}
+
+.digit_key.operation
+{
+    background-color: rgb(197, 177, 62);
+}
+
+.digit_key.clearAll
+{
+    background-color: rgb(170, 71, 13);
+}
+
+.digit_key.equal
+{
+    background-color: rgb(197, 177, 62);
+}
+
+.scoreboard
+{
+    font-size: 40px;
+    text-align: right;
+    background: rgb(231, 231, 231);
+    padding-right: 10px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.digit_key:hover
+{
+    filter: brightness(120%);
+}
+
+.digit_key:active
+{
+    filter: brightness(90%);
+}
