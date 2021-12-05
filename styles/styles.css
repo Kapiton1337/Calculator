@@ -26,6 +26,12 @@ table
     width: 50px;
 }
 
+.digit_key.dot
+{
+    background-color: #bebebe;
+    width: 50px;
+}
+
 .digit_key.operation
 {
     background-color: rgb(197, 177, 62);
